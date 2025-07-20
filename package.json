@@ -1,0 +1,54 @@
+{
+  "name": "cows-and-bulls",
+  "version": "1.0.0",
+  "description": "Ein interaktives Multiplayer Bulls and Cows Spiel für den Browser mit Lobby-System und konfigurierbaren Spieleinstellungen.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["bulls-cows", "multiplayer", "game", "nextjs", "typescript", "socket.io", "real-time"],
+  "author": "Shaco74",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shaco74/cows-and-bulls.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Shaco74/cows-and-bulls/issues"
+  },
+  "homepage": "https://github.com/Shaco74/cows-and-bulls#readme",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^24.0.15",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "autoprefixer": "^10.4.21",
+    "clsx": "^2.1.1",
+    "eslint": "^9.31.0",
+    "eslint-config-next": "^15.4.2",
+    "lucide-react": "^0.525.0",
+    "next": "^15.4.2",
+    "postcss": "^8.5.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.4",
+    "jest-environment-jsdom": "^30.0.4"
+  }
+}
